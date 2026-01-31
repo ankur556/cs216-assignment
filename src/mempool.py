@@ -6,7 +6,7 @@ class Mempool:
         self.spent_utxos = set()
         self.max_size = max_size
 
-    def add_transaction(self, tx, utxo_manager) -> (bool, str):
+    def add_transaction(self, tx, utxo_manager):
         pass
 
     def remove_transaction(self, tx_id : str):
@@ -18,4 +18,3 @@ class Mempool:
     def clear(self):
         pass
 
-    
