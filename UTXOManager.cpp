@@ -2,29 +2,13 @@
 #include <unordered_map>
 #include <vector>
 #include <string>
+#include "transactions.h"
 
 using namespace std;
 
-struct TransactionInput {
-    string prev_tx;
-    int index;
-    string owner;
-};
-
-struct TransectionOutput {
-    double amount;
-    string address;
-};
-
-struct Transections {
-    string tx_id;
-    vector<TransactionInput> inputs;
-    vector<TransectionOutput> outputs;
-};
-
 class UTXOManager {
 private:
-    unordered_map<string, TransectionOutput> utxo_set;
+    unordered_map<string, TransactionOutput> utxo_set;
 
     string make_key(const string & tx_id, int index) {
         return tx_id + ":" + to_string(index);
@@ -54,8 +38,8 @@ public:
         return balance;
     }
 
-    vector<TransectionOutput> get_utxos_for_owner(string owner) {
-        vector<TransectionOutput> results;
+    vector<TransactionOutput> get_utxos_for_owner(string owner) {
+        vector<TransactionOutput> results;
         for (auto const& entry : utxo_set) {
             if (entry.second.address == owner) {
                 results.push_back(entry.second);
