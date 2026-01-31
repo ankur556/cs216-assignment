@@ -6,13 +6,13 @@ A comprehensive Python implementation of Bitcoin's UTXO (Unspent Transaction Out
 
 ## Team Information
 
-**Team Name:** [Your Team Name]
+**Team Name:**: Just Hash it
 
 **Team Members:**
-1. [Name] - [Roll Number]
-2. [Name] - [Roll Number]
-3. [Name] - [Roll Number]
-4. [Name] - [Roll Number]
+1. Ankur - 240001009
+2. Anurag Prasad - 240001011
+3. Saransh Halwai - 240001066
+4. Vavadiya Rudra Bhaveshbhai - mc240041038
 
 ## Project Overview
 
@@ -67,7 +67,7 @@ All 5 validation rules implemented:
 7. ✅ Zero Fee Transaction
 8. ✅ Race Attack Simulation
 9. ✅ Complete Mining Flow
-10. ✅ Unconfirmed Chain
+10.✅ Unconfirmed Chain
 
 ## Repository Structure
 
