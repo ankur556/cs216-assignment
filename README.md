@@ -67,7 +67,7 @@ All 5 validation rules implemented:
 7. ✅ Zero Fee Transaction
 8. ✅ Race Attack Simulation
 9. ✅ Complete Mining Flow
-10.✅ Unconfirmed Chain
+10. ✅ Unconfirmed Chain
 
 ## Repository Structure
 
