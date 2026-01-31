@@ -12,7 +12,7 @@ A comprehensive Python implementation of Bitcoin's UTXO (Unspent Transaction Out
 1. Ankur - 240001009
 2. Anurag Prasad - 240001011
 3. Saransh Halwai - 240001066
-4. Vavadiya Rudra Bhaveshbhai - mc240041038
+4. Vavadiya Rudra Bhaveshbhai - 240041038
 
 ## Project Overview
 
