@@ -359,7 +359,7 @@ python src/main.py
 5. **State Transitions**
    - How UTXO set evolves with each block
    - Finality through mining
-###🚀 Advanced Features (Extended Implementation)
+🚀 Advanced Features (Extended Implementation)
 Beyond the core requirements, our team implemented a full-stack suite to bring the simulation to life:
 
 1.Interactive Web Dashboard: We developed a web-based GUI with a full backend, allowing users to run and visualize the UTXO simulation on a live server rather than just the CLI.
@@ -368,7 +368,7 @@ Beyond the core requirements, our team implemented a full-stack suite to bring t
 
 3.FastAPI Integration: All core simulator functions are exposed via FastAPI, maintaining Python's simplicity while providing a robust RESTful API.
 
-Secure Access: Added a dedicated Login Page to manage user sessions and improve the overall interactive experience.
+4.Secure Access: Added a dedicated Login Page to manage user sessions and improve the overall interactive experience.
 ## Troubleshooting
 
 ### Common Issues
